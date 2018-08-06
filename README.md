@@ -9,10 +9,9 @@ Since pandas is not available on AWS we will have to create a lambda package wit
 
 Architecture:
 a)AWS lambda (for the server less code)
-b)2 aws s3 :source and destination bucket for storing and saving.Also will trigger the lambda for conversion process when a file is added to S3 source bucket
-aws 
+b)2 aws s3 :source and destination bucket for storing and saving.Also will trigger the lambda for conversion process when a file is added to S3 source bucket 
 c)EC2:  to prepare the deployment package
-d)aws cloudwatch logs :optional, to check if events are working fine in the initial stage 
+d)aws cloudwatch logs (optional):to check if events are working fine in the initial stage 
 
 
 ### steps involved
