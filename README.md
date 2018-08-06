@@ -1,5 +1,3 @@
-# Data-Ingesion-Engineer-DEEPAK
-The code meets the requirement for the Data Ingesion Engineer position.Contains lambda function to convert Excel file stored in S3 to json in another S3.
 
 # Data Preparation Pipeline using Lambda ,S3 and Pandas
 
@@ -34,6 +32,6 @@ give lambda policy access to use ec2 zipped code ,s3 and cloudwatch logs.Use it 
 3.Create a lambda function ,in this case "Functionversion0".Manually or through AWS CLI.
 
 
-###Manual Test
+### Manual Test
 1.Add a file to the Souce bucket .
 2.Look for json file with same name and .json extension in destination bucket.
