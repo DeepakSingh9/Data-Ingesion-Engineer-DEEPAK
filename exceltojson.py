@@ -3,6 +3,7 @@ import json
 import pandas as pd
 def lambda_handler(event, context):
     s3 = boto3.resource('s3')
+    
     #getting xls file saved in newsourcebucket
     object=s3.Object('newsourcebucket','MIC.xls')
     
